@@ -1,0 +1,25 @@
+{
+    "name": "harsh/laravel-role-permission",
+    "description": "This is package for role permission",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Harsh\\LaravelRolePermission\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "harsh.bhoraniya",
+            "email": "harsh.bhoraniya@tatvasoft.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "harsh\\LaravelRolePermission\\RolesPermissionServiceProvider"
+            ]
+        }
+    }
+}
