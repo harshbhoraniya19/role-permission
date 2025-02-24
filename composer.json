@@ -1,5 +1,5 @@
 {
-    "name": "harsh/laravel-role-permission",
+    "name": "harshbhoraniya19/role-permission",
     "description": "This is package for role permission",
     "type": "library",
     "license": "MIT",
@@ -10,16 +10,30 @@
     },
     "authors": [
         {
-            "name": "harsh.bhoraniya",
+            "name": "harsh bhoraniya",
             "email": "harsh.bhoraniya@tatvasoft.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
+        "eklundkristoffer/seedster": "^8.0",
+        "laravel/helpers": "^1.7"
+    },
+    "require-dev": {
+        "larastan/larastan": "^2.9.1",
+        "orchestra/testbench": "^9",
+        "laravel/pint": "^1.14",
+        "rector/rector": "^1.0",
+        "livewire/livewire": "^3.4"
+    },
     "extra": {
         "laravel": {
             "providers": [
-                "harsh\\LaravelRolePermission\\RolesPermissionServiceProvider"
+                "harshbhoraniya19\\RolePermission\\RolesPermissionServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
