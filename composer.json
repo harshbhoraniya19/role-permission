@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "harshbhoraniya19\\RolePermission\\RolesPermissionServiceProvider"
+                "harshbhoraniya19\\RolePermission\\RolePermissionServiceProvider"
             ]
         }
     },
