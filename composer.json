@@ -17,15 +17,6 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.0",
-        "eklundkristoffer/seedster": "^8.0",
-        "laravel/helpers": "^1.7"
-    },
-    "require-dev": {
-        "larastan/larastan": "^2.9.1",
-        "orchestra/testbench": "^9",
-        "laravel/pint": "^1.14",
-        "rector/rector": "^1.0",
-        "livewire/livewire": "^3.4"
     },
     "extra": {
         "laravel": {
