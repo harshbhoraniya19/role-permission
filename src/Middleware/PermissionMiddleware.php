@@ -1,9 +1,9 @@
 <?php
 
-namespace harsh\RolePermission\Middleware;
+namespace harshbhoraniya19\RolePermission\Middleware;
 
 use Closure;
-use harsh\RolePermission\Exceptions\PermissionDeniedException;
+use harshbhoraniya19\RolePermission\Exceptions\PermissionDeniedException;
 use Illuminate\Contracts\Auth\Guard;
 
 class PermissionMiddleware

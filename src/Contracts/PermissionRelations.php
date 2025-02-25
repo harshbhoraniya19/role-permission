@@ -1,6 +1,6 @@
 <?php
 
-namespace harsh\RolePermission\Contracts;
+namespace harshbhoraniya19\RolePermission\Contracts;
 
 interface PermissionRelations{
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace harsh\RolePermission\Traits;
+namespace harshbhoraniya19\RolePermission\Traits;
 
 use App\Models\User;
-use harsh\RolePermission\Models\Role;
+use harshbhoraniya19\RolePermission\Models\Role;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 trait PermissionRelations{

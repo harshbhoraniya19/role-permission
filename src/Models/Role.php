@@ -1,8 +1,8 @@
 <?php
 
-namespace harsh\RolePermission\Models;
+namespace harshbhoraniya19\RolePermission\Models;
 
-use harsh\RolePermission\Traits\RoleRelations;
+use harshbhoraniya19\RolePermission\Traits\RoleRelations;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

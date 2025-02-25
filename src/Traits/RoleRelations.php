@@ -1,9 +1,9 @@
 <?php
 
-namespace harsh\RolePermission\Traits;
+namespace harshbhoraniya19\RolePermission\Traits;
 
 use App\Models\User;
-use harsh\RolePermission\Models\Permission;
+use harshbhoraniya19\RolePermission\Models\Permission;
 
 trait RoleRelations
 {

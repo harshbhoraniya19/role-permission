@@ -3,7 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use harsh\RolePermission\Exceptions\RoleDeniedException;
+use harshbhoraniya19\RolePermission\Exceptions\RoleDeniedException;
 use Illuminate\Contracts\Auth\Guard;
 
 class RoleMiddleware

@@ -1,6 +1,6 @@
 <?php
 
-namespace harsh\RolePermission\Exceptions;
+namespace harshbhoraniya19\RolePermission\Exceptions;
 
 use Exception;
 

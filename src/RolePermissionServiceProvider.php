@@ -1,6 +1,6 @@
 <?php
 
-namespace harsh\RolePermission;
+namespace harshbhoraniya19\RolePermission;
 
 use Illuminate\Support\ServiceProvider;
 
