@@ -1,9 +1,7 @@
 <?php
 
-namespace harsh\LaravelRolePermission;
+namespace harsh\RolePermission;
 
-use App\Http\Middleware\RoleMiddleware;
-use harsh\LaravelRolePermission\Middleware\PermissionMiddleware;
 use Illuminate\Support\ServiceProvider;
 
 class RolePermissionServiceProvider extends ServiceProvider

@@ -1,6 +1,6 @@
 <?php
 
-namespace harsh\LaravelRolePermission\Contracts;
+namespace harsh\RolePermission\Contracts;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;

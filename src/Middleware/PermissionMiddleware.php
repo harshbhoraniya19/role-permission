@@ -1,9 +1,9 @@
 <?php
 
-namespace harsh\LaravelRolePermission\Middleware;
+namespace harsh\RolePermission\Middleware;
 
 use Closure;
-use harsh\LaravelRolePermission\Exceptions\PermissionDeniedException;
+use harsh\RolePermission\Exceptions\PermissionDeniedException;
 use Illuminate\Contracts\Auth\Guard;
 
 class PermissionMiddleware

@@ -1,6 +1,6 @@
 <?php
 
-namespace harsh\LaravelRolePermission\Exceptions;
+namespace harsh\RolePermission\Exceptions;
 
 use Exception;
 

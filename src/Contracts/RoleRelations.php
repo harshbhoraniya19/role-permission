@@ -1,6 +1,6 @@
 <?php
 
-namespace harsh\LaravelRolePermission\Contracts;
+namespace harsh\RolePermission\Contracts;
 
 interface RoleRelations{
 

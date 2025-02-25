@@ -3,7 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use harsh\LaravelRolePermission\Exceptions\RoleDeniedException;
+use harsh\RolePermission\Exceptions\RoleDeniedException;
 use Illuminate\Contracts\Auth\Guard;
 
 class RoleMiddleware
