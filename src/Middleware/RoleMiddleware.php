@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace harshbhoraniya19\RolePermission\Middleware;
 
 use Closure;
 use harshbhoraniya19\RolePermission\Exceptions\RoleDeniedException;

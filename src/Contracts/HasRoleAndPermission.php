@@ -24,4 +24,29 @@ interface HasRoleAndPermission
     public function rolePermissions();
 
     public function userPermissions();
-}
+
+    public function hasRole($role, $all = false);
+
+    public function hasOneRole($role);
+
+    public function hasAllRoles($role);
+
+    public function checkRole($role);
+
+    public function attachRole($role);
+
+    public function detachRole($role);
+
+    public function detachAllRoles();
+
+    public function syncRoles($roles);
+
+    public function roles();
+
+    public function attachPermission($permission);
+
+    public function detachPermission($permission);
+
+    public function detachAllPermissions();
+
+    public function syncPermissions($permissions);
