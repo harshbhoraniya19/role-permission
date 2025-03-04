@@ -1,6 +1,6 @@
 <?php
 
-namespace harshbhoraniya19\RolePermission\Seeders;
+namespace harshbhoraniya19\RolePermission\Database\Seeders;
 
 use harshbhoraniya19\RolePermission\Models\Permission;
 use Illuminate\Database\Seeder;
