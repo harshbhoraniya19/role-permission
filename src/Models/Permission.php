@@ -11,7 +11,7 @@ class Permission extends Model
     use PermissionRelations;
     use SoftDeletes;
 
-    protected $table = 'permission';
+    protected $table = 'permissions';
 
     protected $fillable = [
         'name',

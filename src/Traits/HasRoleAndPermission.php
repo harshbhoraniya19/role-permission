@@ -206,20 +206,4 @@ trait HasRoleAndPermission{
 
         return $this->userPermissions()->sync($permissions);
     }
-
-    public function callMagic($method, $parameters)
-    {
-        if (starts_with($method, 'is')) {
-            return $this->hasRole(snake_case(substr($method, 2), config('roles.separator')));
-        } elseif (starts_with($method, 'can')) {
-            return $this->hasPermission(snake_case(substr($method, 3), config('roles.separator')));
-        }
-
-        return parent::__call($method, $parameters);
-    }
-
-    public function __call($method, $parameters)
-    {
-        return $this->callMagic($method, $parameters);
-    }
 }

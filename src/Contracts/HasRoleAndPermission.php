@@ -50,3 +50,4 @@ interface HasRoleAndPermission
     public function detachAllPermissions();
 
     public function syncPermissions($permissions);
+}
