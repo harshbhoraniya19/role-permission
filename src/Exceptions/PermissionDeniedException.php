@@ -7,7 +7,7 @@ use Exception;
 class PermissionDeniedException extends Exception
 {
     /**
-     * Create a new role denied exception instance.
+     * Create a new permission denied exception instance.
      *
      * @param string $permission
      */
