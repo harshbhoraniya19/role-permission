@@ -4,7 +4,7 @@ namespace harshbhoraniya19\RolePermission\Exceptions;
 
 use Exception;
 
-class RolesDeniedException extends Exception
+class RoleDeniedException extends Exception
 {
     /**
      * Create a new role denied exception instance.
