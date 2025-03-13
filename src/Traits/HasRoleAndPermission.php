@@ -67,7 +67,22 @@ trait HasRoleAndPermission{
     }
     public function getRoles()
     {
-        return (!$this->roles) ? $this->roles = $this->rolePermissions()->get()->merge($this->userPermissions()->get()) : $this->roles;
+        if (!$this->roles) {
+            if (method_exists($this, 'loadMissing')) {
+                $this->loadMissing('roles');
+            } else {
+                if (!array_key_exists('roles', $this->relations)) {
+                    $this->load('roles');
+                }
+            }
+            if (method_exists($this, 'getRelation')) {
+                $this->roles = $this->getRelation('roles');
+            } else {
+                $this->roles = $this->relations['roles'];
+            }
+        }
+
+        return $this->roles;
     }
 
     public function rolePermissions(){
